@@ -1,0 +1,636 @@
+body {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 75%;
+    margin: 0;
+    padding: 0;
+    background: #efefef;
+}
+
+header {
+    color: #f7f7f7;
+    width: 100%;
+    margin-bottom: 0;
+    height: 100px;
+}
+
+.contenido {
+    padding: 50px 200px 50px 200px;
+}
+
+.nav {
+    color: #929292;
+    font-size: 15px;
+    float: right;
+    
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+#agency {
+    padding: 0 35px 0 35px;
+    border-right: 2px #929292 solid;
+}
+
+.telephone {
+    font-size: 20px;
+    padding-left: 35px;
+}
+
+.icons {
+    height: 25px;
+    position: relative;
+    top: 4px;
+    right: 5px;
+}
+
+#icon {
+    position: relative;
+    left: 8px;
+}
+
+.header-bottom {
+    float: left;
+    width: 100%;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    background: #fff;
+}
+
+.contenido {
+    max-width: 1200px;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.nav_principal {
+    float: left;
+    display: block;
+    width: 50px;
+    position: absolute;
+}
+
+.nav_principal ul {
+    width: 240px;
+}
+
+.nav_principal ul li {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    position: relative;
+    bottom: 15px;
+}
+
+.nav_principal button {
+    float: left;
+    width: 50px;
+    height: 45px;
+    font-weight: bold;
+    padding: 15px;
+    border: 0;
+    box-sizing: border-box;
+    background: #67b500;
+    position: relative;
+    color: #fff;
+    line-height: 12px;
+}
+
+.menu {
+    position: relative;
+    right: 8px;
+    bottom: 5px;
+}
+
+.nav_secundary {
+    float: right;
+    width: 100%;
+    padding-left: 60px;
+    box-sizing: border-box;
+}
+
+.nav_secundary ul {
+    display: table;
+    width: 100%;
+}
+
+.nav_secundary ul li {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+}
+
+.nav_secundary ul li a {
+    padding-top: 18px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #929292;
+}
+
+.nav_secundary ul li a span{
+    padding: 0 10px 13px 10px;
+    line-height: 12px;
+}
+
+.negrita {
+    color: black;
+    text-decoration: underline #67b500 4px;
+}
+
+.inicio {
+    padding: 35px 54px 50px;
+    font-size: 14px;
+}
+
+.word-green {
+    color: #67b500;
+    padding-right: 5px;
+}
+
+.filtro {
+    float: inline-start;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: 150px;
+}
+
+.filtro ul {
+    list-style: none;
+}
+
+.filtro1 button {
+    background-color: #67b500;
+    color: #fff;
+    border: 1px #67b500;
+    height: 50px;
+    width: auto;
+    margin-left: 50px;
+}
+
+.separacion {
+    margin-left: 5px;
+}
+
+.viajes {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    justify-content: space-between;
+    margin: 30px 180px 0 180px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.anuncio-viaje {
+    height: 450px;
+    background-color: white;
+}
+
+.anuncio-viaje p {
+    font-size: 15px;
+    color: #929292;
+}
+
+.anuncio-precio {
+    padding: 5px 10px 10px;
+    position: absolute;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+.anuncio-precio1 {
+    display: flex;
+    width: 50%;
+    position: relative;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: auto 0 0
+}
+
+.precio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.precio1 {
+    font-size: 12px;
+    margin-bottom: 2px;
+    color: #929292;
+}
+
+.precio-grande {
+    color: #67b500;
+    font-size: 28px;
+    line-height: .8
+}
+
+.anuncio-precio1 a {
+    width: max-content;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px 0px rgba(0,0,0,.15);
+    background-color: #fff;
+    border: 1px solid #5da132;
+    text-decoration: none;
+}
+
+.anuncio-precio1 a span {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 10px 15px 10px 20px;
+    color: #5da132;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: normal;
+    white-space: nowrap;
+}
+
+.anuncio-precio2 {
+    padding: 5px 10px 10px;
+    position: absolute;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    bottom: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.anuncio-precio3 {
+    display: flex;
+    width: 50%;
+    position: relative;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: auto 0 0
+}
+
+.anuncio-precio3 a {
+    width: max-content;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px 0px rgba(0,0,0,.15);
+    background-color: #fff;
+    border: 1px solid #5da132;
+    text-decoration: none;
+}
+
+.anuncio-precio3 a span {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 10px 15px 10px 20px;
+    color: #5da132;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: normal;
+    white-space: nowrap;
+}
+
+.precio1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.precio2 {
+    font-size: 12px;
+    margin-bottom: 2px;
+    color: #929292;
+}
+
+.precio-grande1 {
+    color: #67b500;
+    font-size: 28px;
+    line-height: .8
+}
+
+.ofertas {
+    background-color: white;
+    margin: 100px;
+}
+
+.ofertas1 {
+    padding: 15px;
+}
+
+.ofertas1 p {
+    font-size: 13px;
+    color: #929292;
+}
+
+.ofertas-titulo {
+    color: #343232;
+    font-size: 25px;
+}
+
+.footer {
+    display: inline;
+    width: 100%;
+    border-top: 2px solid #e2e2e2;
+    position: relative;
+}
+
+.container1 {
+    display: inline;
+    width: 100%;
+    min-height: 160px;
+    padding: 15px 0 125px;
+}
+
+#producto {
+    padding: 0 15px;
+    margin-bottom: 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sub {
+    display: inline;
+    width: 100%;
+    border-left: 1px solid white;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+#sub1 {
+    width: 12.5%;
+    float: left;
+    padding: 0;
+    display: inline;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.sub a {
+    height: 85px;
+    text-decoration: none;
+    color: black;
+}
+
+.modulos {
+    padding: 100px 50px 50px 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+    
+}
+
+.modulo-margen {
+    padding-left: 10px;
+    height: 100%;
+}
+
+.modulo1 {
+    height: 170px;
+    background-image: url(img/1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    color: white;
+}
+
+.modulo1 h4 {
+    width: 40%;
+    padding-bottom: 5px;
+    font-size: 20px;
+    line-height: 23px;
+    color: #fff;
+    text-align: left;
+}
+
+.modulo1 p {
+    margin: 0;
+    position: relative;
+    bottom: 30px;
+    width: 100%;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.descubre {
+    margin-top: 10px;
+    height: 100px;
+    width: 100%;
+    border: #fff solid 2px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.descubre span {
+    padding: 50px;
+}
+
+.modulo2 {
+    height: 170px;
+    background-image: url(img/3.jpg);
+    background-repeat: no-repeat;
+    width: 70%;
+    color: white;
+}
+
+.modulo2 h4 {
+    width: 60%;
+    padding-bottom: 5px;
+    font-size: 20px;
+    line-height: 23px;
+    color: #fff;
+    text-align: left;
+}
+
+.modulo2 p {
+    margin: 0;
+    position: relative;
+    bottom: 30px;
+    width: 100%;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.descubre2 {
+    margin-top: 10px;
+    height: 100px;
+    width: 100%;
+    border: blue solid 2px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.descubre2 span {
+    padding: 50px;
+}
+
+.descubre2-2 {
+   position: relative;
+   top: 10px;
+    color: #fff;
+}
+
+.modulo3 {
+    height: 170px;
+    background-image: url(img/2.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.modulo3 p {
+    position: relative;
+    top: 20px;
+    width: 40%;
+    font-size: 20px;
+    color: #343232;
+    text-align: left;
+}
+
+.modulo3 img {
+    width: 137px;
+    height: auto;
+}
+
+.descubre3 {  
+    width: 100%;
+    border: #343232 solid 2px;
+    text-decoration: none;
+    color: #343232;
+}
+
+.descubre3 span {
+    padding: 30px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 15px 28px 15px;
+    width: 100%;
+}
+
+.links-bloques {
+    float: left;
+    display: block;
+    position: relative;
+    height: 100%;
+    padding: 0 35px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.links-titulo {
+    font-size: 20px;
+    color: #5da132;
+}
+
+.links-bloques p {
+    color: #343232;
+    font-size: 15px;
+}
+
+.paises {
+    display: flex;
+}
+
+.publicidad {
+    display: inline;
+    width: 100%;
+    padding: 0 0 20px;
+    color: #929292;
+}
+
+.publicidad2 {
+    position: static;
+}
+
+.publicidad2 img {
+    height: 50px;
+}
+
+#logos {
+    padding: 0 50px 0 50px;
+    box-sizing: border-box;
+    font-family: "asapregular";
+    font-size: 1.5em;
+    clear: left;
+    float: left;
+    display: inline;
+    width: 100%;
+    list-style: none;
+    display: flex;
+}
+
+#logo2 {
+    margin-left: 20px;
+}
+
+#logo3 {
+    position: relative;
+    left: 600px;
+}
+
+.publicidad3 {
+    padding: 50px;
+}
+
+.politica a {
+    text-decoration: none;
+    color: #929292;
+}
+
+.redes {
+    position: relative;
+    text-align: right;
+    bottom: 60px;
+    font-size: 15px;
+}
+
+.redes ul {
+    display: flex;
+    position: relative;
+    left: 1200px;
+}
+
+.redes li {
+    list-style: none;
+}
+
+
+

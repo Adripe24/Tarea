@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 43%;
+    margin: 0 auto;
+    padding: 100px;
+    box-sizing: border-box;
+}
+
+img {
+    height: 150px;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    transform: scale(1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 2.0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.registro {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+input[type="email"], input[type="text"], input[type="password"] {
+    background-color: #f7f7f7;
+    border: 1px solid #ced4da;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.requisitos {
+    position: relative;
+    right: 15px;
+    bottom: 10px;
+}
+
+.requisitos-2 {
+    position: relative;
+    left: 280px;
+    bottom: 101px;
+}
+
+
+button {
+    background-color: white ;
+    height: 50px;
+    width: 150px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid rgb(222, 213, 213);;
+}
+
+.texto-button {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(222, 213, 213);
+}
+
+.texto-checkbox p {
+    position: relative;
+    left: 180px;
+    bottom: 50px;
+    text-align: left;
+    font-size: 15px;
+
+}
+
+.licencia p {
+    text-align: left;
+    position: relative;
+    top: 15px;
+}
+
+.acuerdo a{
+    color: #007bff;
+}

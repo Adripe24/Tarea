@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mailchimp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <img src="https://cdn-images.mailchimp.com/product/brand_assets/logos/mc-freddie-dark.svg" alt="Logo ">
+    <div class="container">
+        <h1>Welcome to Mailchimp</h1>
+        <p>Find your people. Engage your customers. Build your brand. Do it all with Mailchimp's Marketing Platform. Already have an account? <a href="log_in.html">Log in</a></p>
+
+        <form>
+            <label class="registro" for="">Email</label>
+            <input type="email" placeholder="joseantonio@gmail.com" required>
+
+            <label class="registro" for="">Username</label>
+            <input type="text" placeholder="Username" required>
+
+            <label class="registro" for="">Password</label>
+            <input type="password" placeholder="Password" required>
+
+        </form>
+        <ul class="requisitos">
+            <li>One lowercase character</li>
+            <li>One uppercase character</li>
+            <li>One number</li>
+        </ul>
+        <ul class="requisitos-2">
+            <li>One special character</li>
+            <li>8 characters minimum</li>
+        </ul>
+
+        <button type="submit">
+            <span class="texto-button">Sign Up</span>
+        </button>
+
+        <label class="texto-checkbox" for="privacy">
+            <input type="checkbox" id="privacy" required>
+            <p>I don't want to receive emails about new Mailchimp products, best practices, or special offers.</p>
+        </label>
+
+        <div class="licencia">
+            <p class="acuerdo">By clicking the "Sign Up" button, you are creating a Mailchimp account, and you agree to Mailchimp's <a href="">Terms of Use</a> and <a href="">Privacy Policy</a>.</p>
+        </div>
+    </div>
+</body>
+</html>

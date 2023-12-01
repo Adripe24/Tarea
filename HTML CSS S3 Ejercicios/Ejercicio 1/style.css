@@ -1,0 +1,169 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1%;
+}
+
+aside {
+    position: absolute;
+    top: 0;
+    left: 10;
+    font-weight: 500;
+}
+
+.enlaces a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.enlaces {
+    margin-top: 16px;
+}
+
+#promociones {
+    color: orange;
+}
+
+#ropa {
+    font-weight: 700;
+}
+
+#mujer {
+    font-weight: 700;
+}
+
+#hombre {
+    position: relative;
+    left: 80px;
+    bottom: 18px;
+}
+
+#hombre, #mujer {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+h1, h5 {
+    text-align: center;
+}
+
+.inactive {
+    color: rgba(0,0,0,0.4);
+}
+
+.active {
+    font-weight: 600;
+}
+
+.buscador {
+    display: block;
+    text-align: left;
+    margin-left: 78%;
+}
+
+.busca {
+    height: 50px;
+    width: 250px;
+    border-bottom: 2px black solid;
+}
+
+.busca p {
+    position: relative;
+    left: 20px;
+    top: 30px;
+    font-weight: bold;
+}
+
+.imagenes {
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(auto-fit, 240px);
+    grid-template-columns: repeat(4, 6fr);
+    gap: 8px;
+    align-content: space-around;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  .container img {
+    height: 400px;
+  }
+
+.text p {
+    font-weight: bold;
+}
+
+.descuento {
+    position: relative;
+    top: 1800px;
+    text-align: center;
+    height: 50px;
+}
+
+.descuento p, h4 {
+    font-weight: 0;
+}
+
+.descuento h4 {
+    margin-top: 40px;
+    border-bottom: 2px black solid;
+}
+
+.descuento1 {
+    align-items: center;
+    position: relative;
+    top: 2000px;
+    text-align: center;
+    height: 120px;
+    border-top: 2px rgb(205, 189, 189) solid;
+    border-bottom: 2px rgb(205, 189, 189) solid;
+}
+
+.descuento1 img {
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+
+.publicidad {
+    display: flex;
+    position: relative;
+    top: 2000px;
+    width: 100%;
+}
+
+.tlf {
+    color: rgb(97, 184, 184);
+}
+
+.publicidad1 h4 {
+    margin-top: 3%;
+    margin-bottom: 40px;
+    width: 250px;
+}
+
+.publicidad p {
+    height: 3px;
+    margin-bottom: 27px;
+}
+
+.publicidad2 {
+    text-align: center;
+    margin-left: 100px;
+}
+
+.publicidad2 p {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+#margen {
+    margin-top: 40px;
+    font-weight: bold;
+}
+
